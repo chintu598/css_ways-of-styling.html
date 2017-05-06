@@ -1,0 +1,40 @@
+<DOCTYPE! html>                                         <!--This is html5 document declaration-->
+<html>                     
+<head>                                
+	<title>3ways of CSS styling</title>                  <!--Title of webpage-->
+	<link rel="stylesheet" type="text/css" href="css types.css"> <!--EXTERNAL stylesheet linking element-->
+	<style>                                              /*INTERNAL styling of css in head section*/   
+	       #internal {
+	 	        color: orange;
+	 	        margin-left: 25px;
+	 	    }
+	 	    
+	</style> 
+</head>
+<body>                                                   <!--Body of webpage-->
+	<h1>CSS Applying Types</h1>                          <!--specifies heading in body content-->
+	<p id="one">                                         <!--paragraph-->
+		<b>Hello world...CSS can be applied in 3ways</b><br>
+		-> Inline<br>
+		-> Inernal<br>
+		-> External<br>
+	</p>
+	<p style="color:skyblue; margin-left:15px;">          <!--This is INLINE styling-->
+		hello Iam { Inline Styling }<br>
+		Welcome to Inline styling<br>
+		Inline styling can be applied using "style" attribute to an element.<br>
+		Inline can apply preferably in "body" content
+	</p>
+	<p id="internal">                                      <!--paragraph with specific id-->
+		Hello Iam { Internal styling }<br>
+		Internal styling can be applied  within "style" Element. <del>attribute</del>
+		Internal styling must be applied only in "head" section<br>
+	</p>
+	<p id="external">
+		Hello Iam { External Styling }<br>
+		External styling can be applied by using seperate file and must save filename with ".css" extension<br>
+		And add this stylesheet with "link" tag in the "head" section of html file.
+	</p>
+</body>
+</html>                                                    <!--End of html-->
+

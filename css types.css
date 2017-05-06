@@ -1,0 +1,17 @@
+/* This is External style sheet */
+
+body{                                  /*styling of body*/
+	background-color: #666699;
+}
+
+#external{                             /* # represents "id" of external element */
+	margin-left: 35px;
+	color: #ff66b3;
+}
+#one{
+	margin-left: 5px;
+	color: #66ff99;
+}
+h1{                                    /*styling for heading */
+	color: white;
+}
